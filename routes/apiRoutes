@@ -1,0 +1,18 @@
+const fs = require("fs");
+const uuid = require("uuid");
+const router = require("express").Router();
+
+// TODO: create route to get information from page
+router.get("/notes", (req, res) => {
+    const data = fs.readFileSync("./db/db.json");
+    res.json(JSON.parse(data));
+})
+// TODO: create route to post information to page
+router.post("/notes", (req, res) => {
+    
+})
+
+// TODO: create route to delete information from page
+router.delete("/notes/:id", (req, res) => {
+    
+})
