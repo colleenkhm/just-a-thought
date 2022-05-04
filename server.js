@@ -2,7 +2,7 @@
 // https://floating-oasis-63194.herokuapp.com/
 const express = require('express');
 const htmlRoutes = require("./routes/htmlRoutes");
-const apiRoutes = require("./routes/apiRoutes,js")
+const apiRoutes = require("./routes/apiRoutes.js")
 
 const PORT = process.env.port || 3001;
 const app = express();
