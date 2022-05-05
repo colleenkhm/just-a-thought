@@ -10,7 +10,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use("/api", apiRoutes);
-app.use("/", htmlRoutes)
+app.use("/", htmlRoutes);
 app.listen(3001, () => {
     console.log(`API server now on https://localhost/` + PORT);
 });
