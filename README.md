@@ -10,7 +10,7 @@ An app that allows users to take and save notes
  - Express.js
 
 ## Website
-https://github.com/colleenkhm/note-taker
+https://floating-oasis-63194.herokuapp.com/
 
 ## Contributing
 Made by Colleen Murray
