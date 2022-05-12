@@ -4,7 +4,7 @@ const router = require("express").Router();
 
 // TODO: create route to get information from page
 router.get("/notes", (req, res) => {
-    const data = fs.readFileSync("../Develop/db/db.json");
+    const data = fs.readFileSync("../db/db.json");
     res.json(JSON.parse(data));
 })
 // TODO: create route to post information to page
