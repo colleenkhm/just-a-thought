@@ -1,10 +1,1 @@
-[
-    {
-        "title":"Test note!",
-        "text":"This is where you can write your notes :)"
-    },
-    {
-        "title": "New note",
-        "text": "Check this out! You can write as many notes as you want."
-    }
-]
+[{"title":"Test note!","text":"This is where you can write your notes :)"},{"title":"New note","text":"Check this out! You can write as many notes as you want."},{"title":"Insomnia note!","text":"I really hope this works","id":"2336488c-cdd1-4b83-8905-8d3213af0c3c"}]
